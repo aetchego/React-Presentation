@@ -1,0 +1,37 @@
+.actions {
+  background-color: #F5F5F5;
+}
+
+.card {
+  width: 400px;
+  margin-bottom: 70px;
+}
+
+.form {
+  padding: 40px;
+  width: 700px;
+}
+
+.textField fieldset {
+  border-radius: 0;
+}
+
+.padding {
+  padding-bottom: 10px;
+}
+
+.label {
+  padding: 20px;
+}
+
+.app {
+  background-color: red;
+}
+
+.grid-dashboard {
+  min-height: 170px;
+}
+
+.grid-form {
+  min-height: 130px;
+}
