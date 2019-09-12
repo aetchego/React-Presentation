@@ -1,14 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import {connect} from "react-redux";
-import Grid from '@material-ui/core/Grid';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoins } from "@fortawesome/free-solid-svg-icons";
-import { UNI_RACHAT } from '../utils/constants';
 import { setPage } from '../redux/reducers/viewReducer';
+import { DEMO } from '../utils/constants';
 
 class Dashboard extends Component {
 
@@ -58,7 +51,7 @@ class Dashboard extends Component {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        changePage: () => dispatch(setPage(UNI_RACHAT))
+        changePage: () => dispatch(setPage(DEMO))
     }
 }
 

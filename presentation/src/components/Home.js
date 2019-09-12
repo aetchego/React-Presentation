@@ -19,7 +19,8 @@ class Home extends Component {
         return (
             <Grid container direction="column" spacing={3}>
                 <Grid item xs={12} md={12} lg={12}><Header/></Grid>
-                <Grid item xs={12} md={12} lg={12}><NavigationInfo></NavigationInfo></Grid>
+                <Grid item xs={12} md={12} lg={12} container><NavigationInfo></NavigationInfo></Grid>
+                <Grid item xs={12} md={12} lg={12} container><Content/></Grid>
                 {this.props.page === HOME_PAGE && <Fragment>
                     <Grid item xs={12} className="grid-dashboard"/>
                     <Grid item xs={12}><Dashboard/></Grid></Fragment>}

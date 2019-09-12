@@ -8,9 +8,9 @@ import { setPage } from "../redux/reducers/viewReducer";
 
 function selectOnglet(page) {
     switch (page) {
-        case UNI_RACHAT:
+        case POURQUOI_REACT:
             return 0;
-        case MULTI_RACHAT:
+        case DEMO:
             return 1;
         default:
             return 0;

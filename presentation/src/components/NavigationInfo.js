@@ -4,10 +4,16 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 
+const style = {
+    padding: '10px',
+    backgroundColor: '#F5F5F5'
+}
+
 class NavigationInfo extends Component {
+
     render() {
         return (
-            <Paper elevation={0} >
+            <Paper elevation={1} style={style}>
                 <Breadcrumbs separator="›" aria-label="breadcrumb">
                     <Link color="inherit" href="/">
                         Material-UI
